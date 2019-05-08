@@ -1,0 +1,72 @@
+body{
+background-color: #f1f1f1;
+}
+
+.main-nav {
+    background-color: #0fbe7d;
+}
+
+@font-face {
+font-family: Kaushan;
+src: url(KaushanScript-Regular.otf);
+}
+
+.site-title {
+    color: white;
+    font-family: Kaushan;
+    font-size: 44px;
+}
+
+.nav-buttons {
+    font-family: "Helvetica";
+    font-size: 20px;
+}
+
+a {
+color: white;
+}
+
+a:hover {
+    text-decoration: none;
+    color: orangered;
+}
+
+.main-container {
+    margin-bottom: 50px;
+}
+
+.article {
+background-color: white;
+border-top: 5px solid #10c578;
+border-bottom: 5px solid #cccccc;
+padding: 30px;
+margin-top: 50px;
+}
+
+.read-more a, .comment {
+    color: orangered;
+}
+
+.read-more a:hover, .comment:hover {
+    text-decoration: underline;
+}
+
+.art-icon {
+    width: 320px;
+    height: 200px;
+    margin: 0px 20px 20px 20px;
+}
+
+.side-content {
+    margin-top: 50px;
+}
+
+.searchbox {
+    width: 250px;
+}
+
+.side-icon {
+    width: 100px;
+    height: 100px;
+    margin: 0px 20px 20px 20px;
+}
